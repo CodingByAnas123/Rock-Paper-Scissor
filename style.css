@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.choices {
+    margin: 20px 0;
+}
+
+.choice {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.choice:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.result p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.result span {
+    font-weight: bold;
+}
+
+#computer_choice_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#computer_choice_container:hover {
+    background-color: #e6f7ff;
+    border-color: #007bff;
+}
+
+#computer_choice_icon {
+    font-size: 32px;
+}
+
+#computer_choice span {
+    color: #333;
+    font-size: 20px;
+}
+
